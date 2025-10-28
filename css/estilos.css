@@ -1,0 +1,23 @@
+ body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+.contenedor {
+    display: flex;
+    height: 100vh; 
+    width: 100%;
+}
+.contenedor-izquierda {
+    background-color: #70d6ff9d;
+    width: 250px; 
+    height: 100%;
+    padding: 20px;
+}
+.contenedor-derecha {
+    background-color: #d8e9e1;
+    flex-grow: 1; 
+    height: 100%;
+    padding: 20px;
+}
